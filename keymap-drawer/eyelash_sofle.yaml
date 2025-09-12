@@ -106,8 +106,8 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB OFF
-  - RGB ON
+  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB TOG
   - RGB EFF
   - RGB EFR
   - RGB SPI
@@ -116,7 +116,7 @@ layers:
   - RGB BRD
   - Ins
   - F11
-  - F12
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -170,8 +170,8 @@ layers:
   - F12
   - '{'
   - '}'
+  - '&reset'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
