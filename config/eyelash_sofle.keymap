@@ -26,10 +26,6 @@
     trigger-period-ms = <16>;
 };
 
-&mt {
-    tapping-term-ms = <100>; // This is the value already set by default
-}
-
 / {
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
@@ -40,6 +36,14 @@
     };
 
     behaviors {
+        mt: mod_tap {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "hold-preferred";
+            tapping-term-ms = <150>;
+            bindings = <&kp>, <&kp>;
+            display-name = "Mod-Tap";
+        };
     };
 
     keymap {
