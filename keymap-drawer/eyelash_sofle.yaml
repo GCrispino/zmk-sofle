@@ -61,7 +61,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - RETURN
-  - {t: '$$mdi:backspace-reverse-outline$$', h: '2'}
+  - {t: '$$mdi:backspace$$', h: '2'}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-esc$$
   - $$mdi:backspace-reverse-outline$$
