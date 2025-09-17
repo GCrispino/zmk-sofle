@@ -45,7 +45,7 @@
             display-name = "Mod-Tap";
         };
 
-        mt_balanced: mod_tap {
+        mt_balanced: mt_balanced {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
