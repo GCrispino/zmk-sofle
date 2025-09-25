@@ -67,6 +67,15 @@
 
             display-name = "Mod-Tap balanced";
         };
+
+        my_td: tap_dance {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LCTRL>, <&kp CAPSLOCK>;
+
+            display-name = "Tap-Dance";
+        };
     };
 
     keymap {
