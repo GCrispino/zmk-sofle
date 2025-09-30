@@ -93,7 +93,7 @@ layers:
   - {t: '0', s: )}
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Sft+`, s: Sft+~}
+  - {t: '$$mdi:transfer$$', type: trans}
   - PgDn
   - PgUp
   - HOME
