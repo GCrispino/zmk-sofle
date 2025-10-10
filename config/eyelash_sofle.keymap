@@ -149,7 +149,7 @@
 &kp GRAVE   &kp NUMBER_1  &kp NUMBER_2     &kp NUMBER_3     &kp NUMBER_4     &kp N5             &mmv MOVE_DOWN   &kp NUMBER_6     &kp N7           &kp N8        &kp N9             &kp N0            &kp EQUAL
 &trans      &trans        &kp PAGE_DOWN    &kp PAGE_UP      &kp HOME         &kp END            &mmv MOVE_LEFT   &kp LEFT_ARROW   &kp DOWN_ARROW   &kp UP_ARROW  &kp RIGHT          &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans      &trans        &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT    &kp F11            &trans            &trans
-&kp C_MUTE  &trans        &trans           &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &kp C_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
+&kp C_MUTE  &trans        &trans           &trans           &trans           &trans             &mkp LCLK        &trans           &mo 3            &kp C_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
             >;
 
             display-name = "layer1";
@@ -162,7 +162,7 @@
 &kp RS(GRAVE)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5          &mmv MOVE_DOWN   &kp NUMBER_6    &kp N7      &kp N8      &kp N9     &kp MINUS    &kp PLUS
 &trans         &out OUT_USB  &out OUT_BLE  &trans        &trans        &trans          &mmv MOVE_LEFT   &bt BT_CLR_ALL  &bt BT_CLR  &kp F11     &kp F12    &kp LBRC     &kp RBRC
 &sys_reset     &trans        &trans        &trans        &trans        &trans          &mmv MOVE_RIGHT  &trans          &trans      &sys_reset  &soft_off  &trans       &trans
-&trans         &bootloader   &trans        &trans        &trans        &trans          &mkp LCLK        &trans          &trans      &trans      &trans     &bootloader
+&trans         &bootloader   &trans        &trans        &mo 3         &trans          &mkp LCLK        &trans          &trans      &trans      &trans     &bootloader
             >;
 
             sensor-bindings = <&scroll_encoder>;
